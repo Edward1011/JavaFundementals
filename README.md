@@ -4,4 +4,4 @@ This repository is for over the course of two months, going over the diffrent fo
 - Software life-cycle
 - Software Development life-cycle model
 
-+
+Computers Computers
