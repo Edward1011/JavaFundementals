@@ -9,7 +9,6 @@ public class House {
     String doorColor;
     String foundation;
 //Our first method(Fuction)
-    public void doorOpenClose(){
-    System.out.println("Open my door");
+    public void doorOpenClose(){ System.out.println("Open my door");
     }
 }
