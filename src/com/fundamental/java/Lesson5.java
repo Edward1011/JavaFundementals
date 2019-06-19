@@ -19,7 +19,7 @@ public class Lesson5 {
     //This primitive type has a range of -2147483648 to 2147483647
     int myint = 23585;
 
-    //This primitive type has a range of -9223372036854775808 to 9223372036854775807
+    //This primitive type has a range of -9223372036854775808 to 9,223,372,036,854,775,807
     long mylong = 518489;
 
     //This primitive type value range varies
