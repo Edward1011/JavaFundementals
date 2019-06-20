@@ -7,19 +7,20 @@ public class Lesson6 {
 //String myString being used for this boolean, ="Lamar"; being True when typed in, any other triggers it false
     String myString = "Lamar";
 
-    //The method shows String method for charAt here
+    //The method shows String method for charAt here,"Returns a single character based on the specified index"
     public void examplecharat() {
-        char mychar = myString.charAt(2);
+        char mychar = myString.charAt(2);   //mystring = Lamar
         System.out.println(mychar);
 
     }
-//*question*
+//method shows string method for concat, two strings together.
     public void exampleconcat(String value) {
         String happy = myString.concat(value);
         System.out.println(happy);
 
     }
-//*question*
+//method shows string method for equals, with boolean, if the value Donut isnt present then it is considered false.
+    //the return type of a specified object from a string.
     public void examplesEquals(String Donut) {
         boolean myBoolean = myString.equals(Donut);
         System.out.println(myBoolean);
@@ -42,6 +43,7 @@ public class Lesson6 {
     }
 //Using String Builder takes objects and puts them together
 // Taking more than 2 strings together and able to modify them aswell.
+    //Recommended if using multiple strings
     /*SAMPLE
     * public class Lesson7  {
 
@@ -56,6 +58,7 @@ public class Lesson6 {
     }
 }
 */
+    //String food, int value used here is from sources that were previously typed out.
     public void exampleBuilder(String food, int value) {
         StringBuilder build = new StringBuilder();
         build.append("My favourite food is");

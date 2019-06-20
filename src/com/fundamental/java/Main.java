@@ -9,10 +9,25 @@ this is on example of split -line comment-
 public class Main {
 //Which tabs to direct information from as you run the code, for my case "Off and on switch"
     public static void main(String[] args) {
-        moreLesson6();
+        Lesson7Examples();
+        //moreLesson6();
         //lesson6examples();
         //lesson5examples();
         //houseExample
+
+    }
+
+    public static void Lesson7Examples() {
+        Lesson7 myLesson7 = new Lesson7();
+        /*myLesson7.basicMath();
+        myLesson7.examplemodulus();
+        myLesson7.addTwoNumbers();
+        myLesson7.exampleAssingment();
+        myLesson7.exampleAssingment2();
+        myLesson7.exampleRelational();
+        *///myLesson7.exampleIncrement();
+        myLesson7.exampleDecrement();
+
     }
 //food and value being variables pulled into another paragraph of code
 public static void moreLesson6() {
@@ -21,7 +36,7 @@ public static void moreLesson6() {
             myOtherLesson6.exampleChar();
             myOtherLesson6.exampleEscape();
 
-} // value: *Unsure
+} // Value: being the text presented with (Donut:"Lamar");
     //"Donut": Lamar being the True statement
     public static void lesson6examples() {
         Lesson6 myLesson6 = new Lesson6();

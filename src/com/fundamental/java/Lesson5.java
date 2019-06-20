@@ -1,6 +1,10 @@
 package com.fundamental.java;
 /*The content of this class is for the lesson 5 slide deck
 Primitive Data Types & More*/
+/*variables must first be declared before they can be used,
+stating their type and name, data types are a reserved keyword thus assosiated
+with primitive data types.The're special as they are also not considered objects.
+ */
 
 public class Lesson5 {
 
@@ -70,7 +74,7 @@ public class Lesson5 {
         mydouble = 93.6; /*double mydouble = 84.8d; */
         System.out.println(mydouble);
     }
-//method show implicit and explicit conversion
+//method shows implicit and explicit conversions
     public void showConversion() {
 
         long ll2 = myint;   //implicit or widening conversion
