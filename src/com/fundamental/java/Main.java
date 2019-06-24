@@ -9,26 +9,55 @@ this is on example of split -line comment-
 public class Main {
 //Which tabs to direct information from as you run the code, for my case "Off and on switch"
     public static void main(String[] args) {
-        Lesson7Examples();
+        lesson8Example2();
+    //lesson8Example1();
+        //Week2labfun();
+        //Lesson7Examples();
         //moreLesson6();
         //lesson6examples();
         //lesson5examples();
         //houseExample
 
     }
-
+    public static void lesson8Example2() {
+Lesson8 otherLesson = new Lesson8();
+otherLesson.basicWhileExample();
+otherLesson.basicDoWhileExample();
+otherLesson.basicForLoopExample();
+otherLesson.basicBranchExample();
+    }
+public static void lesson8Example1() {
+        Lesson8 myLesson8 = new Lesson8();
+        myLesson8.basicIfExample(5,10); //prints before, and then after
+    myLesson8.basicIfExample (5,5);     //prints before, then If & after
+    myLesson8.basicIfElseExample(10, 11);//not Equal Statement
+    myLesson8.basicIfElseExample(1,1); //Equal statement
+    myLesson8.basicIfElseChainExample(42);
+    myLesson8.basicIfAndOrExample( 30);
+    myLesson8.basicSwitchExample(3);// set up before was 3 or 4. if over value goes to final result
+}
     public static void Lesson7Examples() {
-        Lesson7 myLesson7 = new Lesson7();
-        /*myLesson7.basicMath();
+
+        /*Lesson7 myLesson7 = new Lesson7();
+        myLesson7.basicMath();
         myLesson7.examplemodulus();
         myLesson7.addTwoNumbers();
         myLesson7.exampleAssingment();
         myLesson7.exampleAssingment2();
         myLesson7.exampleRelational();
-        *///myLesson7.exampleIncrement();
-        myLesson7.exampleDecrement();
+        myLesson7.exampleIncrement();
+        *///myLesson7.exampleDecrement();
 
     }
+
+
+public static void Week2labfun(){ //
+        Week2lab lab2= new Week2lab();
+        lab2.voltage();
+
+}
+
+
 //food and value being variables pulled into another paragraph of code
 public static void moreLesson6() {
     Lesson6 myOtherLesson6 = new Lesson6();

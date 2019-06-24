@@ -32,7 +32,7 @@ public class Lesson7{
             System.out.println("The sum of entered value ="+z);
 
         }
-//X = 10, Y = 15, general plugging variables with different symbols to see results
+//X = 10, Y = 15, general plugging variables with different symbols to see results carried over
         public void exampleAssingment() {
             int able = 10, may = 15;
             able += may;
