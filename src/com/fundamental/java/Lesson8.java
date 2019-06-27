@@ -98,7 +98,7 @@ public class Lesson8 {
                 continue;
 
             }
-            if (i == 4) {
+            if (i == 2) {
                 System.out.println("Loop breaks");
                 break;
 

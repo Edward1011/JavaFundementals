@@ -7,6 +7,10 @@ public class Lesson6 {
 //String myString being used for this boolean, ="Lamar"; being True when typed in, any other triggers it false
     String myString = "Lamar";
 
+private void examplePrivate(){
+    System.out.println("This is a private method");
+}
+
     //The method shows String method for charAt here,"Returns a single character based on the specified index"
     public void examplecharat() {
         char mychar = myString.charAt(2);   //mystring = Lamar

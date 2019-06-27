@@ -1,4 +1,5 @@
 package com.fundamental.java;
+import com.fundamental.lesson10.Lesson10;
 /*
 this class is the starting class of this project
 this is on example of split -line comment-
@@ -7,18 +8,80 @@ this is on example of split -line comment-
 
 
 public class Main {
-//Which tabs to direct information from as you run the code, for my case "Off and on switch"
+    //Which tabs to direct information from as you run the code, for my case "Off and on switch"
     public static void main(String[] args) {
-        lesson8Example2();
-    //lesson8Example1();
+
+     Lesson12example();
+        //TruckClassexample();
+        //lesson11Example();
+        //lesson10Example();
+        //Lesson9Example();
+        //beersong();
+        //lesson8Example2();
+        //lesson8Example1();
         //Week2labfun();
         //Lesson7Examples();
         //moreLesson6();
         //lesson6examples();
         //lesson5examples();
-        //houseExample
+        //houseExample();
 
+    }// end reached
+
+    public static void Lesson12example(){
+        Condo myCondo = new Condo ();
+    myCondo.doorOpenClose();
+    Condo mySecondCondo = new Condo ("Railing","Orange",32,"Hunter Green","Steel");
+    System.out.println(mySecondCondo.getDoorColor());
     }
+
+    public static void TruckClassexample() {
+        TruckClass myTruckClass = new TruckClass("Seamless", 6 , "ToolBox", "Yellow");
+        myTruckClass.setColorTexture ("Magenta");
+        System.out.println(myTruckClass.getWheelsTexture());
+        System.out.println(myTruckClass.getBoxBedType());
+        System.out.println(myTruckClass.getWindowsSize());
+        System.out.println(myTruckClass.getColorTexture());
+    }
+
+    public static void lesson11Example() {
+House house1= new House();
+
+House house2 = new House( "Beer Bottle Brown");
+
+TruckClass TruckClass1 = new TruckClass();
+    }
+
+    public static void lesson10Example() {
+        //trying to see private method inside another class
+Lesson6 myLesson6 = new Lesson6();
+        //myLesson6.exampleprivate(); //Cannot Access
+
+    Bottles_Of_Beer_Song song = new Bottles_Of_Beer_Song();
+    //song.lesson10private();
+    //song is privated
+}   Lesson10 myLesson = new Lesson10();
+    //myLesson.showProtected(); //cannot access
+
+
+
+
+    public static void Lesson9Example(){
+        Lesson9 myLesson9 = new Lesson9();
+        //myLesson9.basicIntArray();
+        //myLesson9.basicStringArray();
+        //myLesson9.basicTwodimensionalarray();
+        //myLesson9.basicThreedimensionalarray();
+        myLesson9.basicJaggedArray();
+    }
+
+    public static void beersong() {
+        Bottles_Of_Beer_Song song = new Bottles_Of_Beer_Song();
+        song.timeToSing();
+    }
+
+
+
     public static void lesson8Example2() {
 Lesson8 otherLesson = new Lesson8();
 otherLesson.basicWhileExample();

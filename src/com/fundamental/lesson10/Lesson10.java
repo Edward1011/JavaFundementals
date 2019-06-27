@@ -1,10 +1,14 @@
-package com.fundemental.Lesson10;
+package com.fundamental.lesson10;
 /*
 lesson shows content for lesson 10, access modifiers
 */
 public class Lesson10 {
 
-    void showLesson() {
-        System.out.println("Show defualt lesson");
+    void showLesson() { System.out.println("Show defualt lesson");
     }// end mothod
-}// end classd
+
+    protected  void showprotected(){
+        System.out.println("Show protected lesson");
+
+    }
+}// end class
