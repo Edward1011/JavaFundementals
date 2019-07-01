@@ -3,7 +3,7 @@ package com.fundamental.java;
 public class Week3lab {
 
         public void gradeNumber(){
-            char Grade = ''; //<< Type in Any of the Grade Letters to get the print out, non grade value any other letter
+            char Grade = 'F'; //<< Type in Any of the Grade Letters to get the print out, non grade value any other letter
             switch (Grade) {
 
                 case 'E':
@@ -34,7 +34,7 @@ public class Week3lab {
 public void divisionNumber() {
             int EndLine = 0;
             do{
-                if (EndLine / 3 == 0) {
+                if (EndLine % 3 == 0) {
                     System.out.println(EndLine);
                 }
                 EndLine++;

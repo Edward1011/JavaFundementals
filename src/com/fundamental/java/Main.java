@@ -8,9 +8,25 @@ this is on example of split -line comment-
 
 
 public class Main {
+
+    public static int num = 0;
+
+    static {
+        System.out.println("Static block 1");
+        num = 42;
+    }
+
+    static {
+
+            System.out.println("Static block 2");
+            num=62;
+}
+
     //Which tabs to direct information from as you run the code, for my case "Off and on switch"
     public static void main(String[] args) {
-        Week3lab();
+        lesson15Example();
+        //lesson14Example();
+        //Week3lab();
         //Lesson12example();
         //TruckClassexample();
         //lesson11Example();
@@ -25,8 +41,16 @@ public class Main {
         //lesson6examples();
         //lesson5examples();
         //houseExample();
-/**/
     }// end reached
+    public static void lesson15Example(){
+        int[] myKeys = {0,1,2,3,4,5,6,7,8,9};
+        BlackBerry myBlackBerry = new BlackBerry(23,myKeys,0,"Color Screen");
+        myBlackBerry.receiveCall();
+        AbstractCellphone myOldPhone = new BlackBerry(30,myKeys,1, "Monochrome");
+        myOldPhone.receiveCall();
+        myOldPhone.endCall();
+
+    }//end method
 
     public static void Lesson12example(){
         Condo myCondo = new Condo ();
@@ -51,7 +75,22 @@ House house2 = new House( "Beer Bottle Brown");
 
 TruckClass TruckClass1 = new TruckClass();
     }
+public static void lesson14Example() {
+        //Lesson14.MY_FIRST_FINAL_ = 10;
+    // *Cannot change value of final* -When red-
+    int total = Lesson14.MY_FIRST_FINAL * 35; //2019 * 35
+    System.out.println (total);
 
+    //Can change the value of a non final static
+    Lesson14.myFirstStatic = 90; // original is 35
+    System.out.println(Lesson14.myFirstStatic);
+
+    Lesson14.myfirstStaticMethod(10);
+    System.out.println("Block number was "+num);
+    
+    Lesson14.MyInnerMethod test = new Lesson14.MyInnerMethod();
+
+}
     public static void lesson10Example() {
         //trying to see private method inside another class
 Lesson6 myLesson6 = new Lesson6();
@@ -72,7 +111,7 @@ Lesson6 myLesson6 = new Lesson6();
         //myLesson9.basicStringArray();
         //myLesson9.basicTwodimensionalarray();
         //myLesson9.basicThreedimensionalarray();
-        myLesson9.basicJaggedArray();
+        //myLesson9.basicJaggedArray();
     }
 
     public static void beersong() {

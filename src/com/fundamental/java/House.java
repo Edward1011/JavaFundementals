@@ -1,6 +1,6 @@
 package com.fundamental.java;
 
-public class House {
+public class House implements MyFirstInterface{
     private String roofType;
     private int windowType;
     private String doorColor;
@@ -61,5 +61,10 @@ public class House {
 
     public void setFoundation(String foundation) {
         this.foundation = foundation;
+    }
+
+   @Override
+    public void endCall(){
+
     }
 }

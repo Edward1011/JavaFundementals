@@ -78,7 +78,7 @@ public class Lesson8 {
     public void basicDoWhileExample() {
         int today = 0;
         do {
-            if (today % 2 == 0) {
+            if (today / 2 == 0) {
                 System.out.println(today);
             }
             today++;
@@ -98,7 +98,7 @@ public class Lesson8 {
                 continue;
 
             }
-            if (i == 2) {
+            if (i == 4) {
                 System.out.println("Loop breaks");
                 break;
 
