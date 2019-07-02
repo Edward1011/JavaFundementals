@@ -1,6 +1,6 @@
 package com.fundamental.java;
 //This class serves as an abstract cellphone
-public class BlackBerry extends AbstractCellphone {
+public abstract class BlackBerry extends AbstractCellphone {
 
     public BlackBerry(int Volume, int[] numberKeys, int sendKey, String screen) {
         super(Volume, numberKeys, sendKey, screen);

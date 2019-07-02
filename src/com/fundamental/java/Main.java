@@ -24,7 +24,9 @@ public class Main {
 
     //Which tabs to direct information from as you run the code, for my case "Off and on switch"
     public static void main(String[] args) {
-        lesson15Example();
+          lesson17Example();
+        //lesson16Example();
+        //lesson15Example();
         //lesson14Example();
         //Week3lab();
         //Lesson12example();
@@ -42,7 +44,26 @@ public class Main {
         //lesson5examples();
         //houseExample();
     }// end reached
-    public static void lesson15Example(){
+
+    public static void lesson17Example() {
+        Lesson17 myLesson17= new Lesson17();
+        //myLesson17.exampleArrayList1();
+        //myLesson17.exampleArrayList2();
+        //myLesson17.exampleHashSet();
+        myLesson17.exampleHashMap();
+    }
+
+    public static void lesson16Example() {
+        Lesson16 myLesson16 = new Lesson16();
+        myLesson16.showEnum();
+
+        myLesson16.myFavoriteFlavor(Lesson16.IceFlavors.BERRY);
+        DaysOfTheWeek d1[] = DaysOfTheWeek.values();
+        for (DaysOfTheWeek day : d1) {
+            System.out.println(day +" at index "+day.ordinal());
+        }
+    }
+    /*public static void lesson15Example(){
         int[] myKeys = {0,1,2,3,4,5,6,7,8,9};
         BlackBerry myBlackBerry = new BlackBerry(23,myKeys,0,"Color Screen");
         myBlackBerry.receiveCall();
@@ -51,7 +72,7 @@ public class Main {
         myOldPhone.endCall();
 
     }//end method
-
+                             */
     public static void Lesson12example(){
         Condo myCondo = new Condo ();
     myCondo.doorOpenClose();
@@ -215,4 +236,22 @@ public static void moreLesson6() {
         }
 
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
