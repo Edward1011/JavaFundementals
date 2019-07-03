@@ -24,7 +24,8 @@ public class Main {
 
     //Which tabs to direct information from as you run the code, for my case "Off and on switch"
     public static void main(String[] args) {
-          lesson17Example();
+        lesson18Example();
+        //lesson17Example();
         //lesson16Example();
         //lesson15Example();
         //lesson14Example();
@@ -44,6 +45,12 @@ public class Main {
         //lesson5examples();
         //houseExample();
     }// end reached
+
+    public static void lesson18Example() {
+        Lesson18 myLesson18= new Lesson18();
+        myLesson18.exampleException();
+        myLesson18.myArrayExpectation();
+    }
 
     public static void lesson17Example() {
         Lesson17 myLesson17= new Lesson17();
